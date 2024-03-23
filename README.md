@@ -15,7 +15,7 @@ JDK 버전: 17
 
 ## 3. 포스트맨을 통한 결과 확인
 
-동작 중인 Client에게 원하는 인자를 쿼리스트링으로 놓은 후, 요청을 보내면 아래와 같이 성공적으로 gRPC 통신을 거쳐 응답값이 반환되는 것을 확인할 수 있다.
+동작 중인 Client에게 원하는 인자를 쿼리스트링(name=world)으로 넣은 후, 요청을 보내면 아래와 같이gRPC 통신을 거쳐 응답값이 성공적으로 반환되는 것을 확인할 수 있다.
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a55764c2-a0e7-42ed-bafc-d6334c8fcd32/023a2af2-c77a-4921-aa81-e4c5aea43978/Untitled.png)
 
@@ -29,6 +29,6 @@ JDK 버전: 17
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a55764c2-a0e7-42ed-bafc-d6334c8fcd32/a7a60832-4b5a-4d98-8fc1-b0b875a39ee8/Untitled.png)
 
-1. 다시 service - controller로 반환
+4. service - controller로 response 반환
 
 ⇒ grpc를 통한 서버 간 통신 시도
